@@ -23,8 +23,8 @@ struct Constants {
         static let retryAttempts = 3
         
         // API Keys (Replace with actual keys)
-        static let openWeatherAPIKey = "98f104bf42207d7f95c732c2f735a904"
-        static let nasaPowerAPIKey = "PkggSvwRmUCl7GScvdhckl9maoiIsXjD8PU3aivT"
+        static let openWeatherAPIKey = ""
+        static let nasaPowerAPIKey = ""
         static let scopeAPIKey = "your_scope_api_key"
         
         // Endpoints
