@@ -29,9 +29,23 @@
 		AA63BAFD2E5905D200243C3D /* SCOPE_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCOPE_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA63BB1B2E59070000243C3D /* Exceptions for "SCOPE_APP" folder in "SCOPE_APP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Views/LocationSelectionView.swift,
+				Views/OnboardingView.swift,
+			);
+			target = AA63BAE52E5905D000243C3D /* SCOPE_APP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AA63BAE82E5905D000243C3D /* SCOPE_APP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA63BB1B2E59070000243C3D /* Exceptions for "SCOPE_APP" folder in "SCOPE_APP" target */,
+			);
 			path = SCOPE_APP;
 			sourceTree = "<group>";
 		};

@@ -1,17 +1,15 @@
-//
-//  SCOPE_APPApp.swift
-//  SCOPE_APP
-//
-//  Created by Ashutosh Srivastava on 8/23/25.
-//
-
 import SwiftUI
 
 @main
-struct SCOPE_APPApp: App {
+struct SCOPEApp: App {
+    @StateObject private var locationViewModel = LocationViewModel()
+    @StateObject private var solarEnergyViewModel = SolarEnergyViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(locationViewModel)
+                .environmentObject(solarEnergyViewModel)
         }
     }
 }
