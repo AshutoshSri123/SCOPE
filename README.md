@@ -81,43 +81,5 @@ FastAPI (optional): For network API expansion
 
 Combine: Data flow management across models and view models
 
-🚧 Project Structure
-text
-SCOPE
-├── SCOPE_APP.xcodeproj        # Xcode project
 
-├── SCOPE_APP                  # Main iOS app codebase
-
-│   ├── API                    # Network/API layer
-
-│   ├── Assets.xcassets        # App assets (icons, images)
-
-│   ├── MLModels               # Trained ML models & model trainer
-
-│   ├── Models                 # Data models (location, solar input, results)
-
-│   ├── Services               # Backend business & utility logic (location, ML service, weather)
-
-│   ├── Utils                  # Utility methods & extensions
-
-│   ├── ViewModels             # State management (e.g., LocationViewModel, SolarEnergyViewModel)
-
-│   └── Views                  # UI components (Onboarding, Input, Report, Results, Settings)
-
-├── SCOPE_APPTests             # Unit tests
-
-└── SCOPE_APPUITests           # UI tests
-
-🚀 Getting Started
-Clone the Repo:
-
-bash
-git clone https://github.com/AshutoshSri123/SCOPE.git
-Open in Xcode
-
-Install Dependencies:
-All dependencies are managed via Swift Package Manager.
-
-Build & Run:
-Deploy on a real device (for accurate location) or simulator.
 
