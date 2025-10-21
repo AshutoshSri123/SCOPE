@@ -1,4 +1,4 @@
-#SCOPE 🌞 - Solar Capacity Output Potential Estimator
+###SCOPE 🌞 - Solar Capacity Output Potential Estimator
 
 Overview
 SCOPE is a cutting-edge iOS application designed to analyze, predict, and visualize the solar energy generation potential of any property in India. Harness the power of AI, location-based insights, financial analysis, and beautiful charts to make smarter decisions about solar adoption—whether you're a homeowner, business, or solar consultant.
